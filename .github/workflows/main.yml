@@ -24,7 +24,6 @@ jobs:
 
       - name: Build with Buildozer
         run: |
-          buildozer android clean
           yes | buildozer android debug
         env:
           ACCEPT_SDK_LICENSE_NET: y
